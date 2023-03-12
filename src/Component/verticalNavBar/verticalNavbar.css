@@ -1,0 +1,26 @@
+.productImage{ width: "200px";
+     height: "200px"; 
+     border: "1px solid black";
+      display: "flex";
+      justify-content: center;
+      align-items: center;
+ }
+
+ .active-item {
+     border-radius: 20px; /* adjust the value to change the amount of curvature */
+     background-color: #deaa07;
+     padding:5px 6px;
+     color: white;
+     font-size: 10px;
+     cursor: pointer;
+   }
+.product {
+     display: flex !important;
+     flex-direction: column !important;
+}
+.sideIcon{
+     border-radius: 10px;
+     padding: 5px 5px;
+     background-color: #e5e7eb;
+     margin-right: 5px;
+}
